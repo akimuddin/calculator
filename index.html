@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Standard Calculator</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="container-fluid calc">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="title bg-top ">
+              <h5 class="mt-3">Md. Akim Uddin, Roll: 32, Registration: FIT WDD-1732</h5>
+            </div>
+          </div>
+        </div>
+    </div>
+
+  <div id="container">
+    <div id="calculator">
+    <h5 class="top-title text-center">Akim Tech</h5>
+      <div id="result">
+        <div id="history">
+          <p id="history-value"></p>
+        </div>
+        <div id="output">
+          <p id="output-value">0</p>
+        </div>
+      </div>
+
+      <div id="keyboard">
+        <button class="operator" id="m+">M+</button>
+        <button class="operator" id="m-">M-</button>
+        <button class="operator" id="mrc">MRC</button>
+        <button class="operator" id="mc">MC</button>
+
+        <button class="operator" id="clear">C</button>
+        <button class="operator" id="backspace">CE</button>
+        <button class="operator" id="%">%</button>
+        <button class="operator" id="/">&#247;</button>
+
+        <button class="number" id="7">7</button>
+        <button class="number" id="8">8</button>
+        <button class="number" id="9">9</button>
+        <button class="operator" id="*">&times;</button>
+
+        <button class="number" id="4">4</button>
+        <button class="number" id="5">5</button>
+        <button class="number" id="6">6</button>
+        <button class="operator" id="-">-</button>
+
+        <button class="number" id="1">1</button>
+        <button class="number" id="2">2</button>
+        <button class="number" id="3">3</button>
+        <button class="operator grid-row" id="+">+</button>
+
+        <button class="number" id="0">0</button>
+        <button class="number" id="dot">.</button>
+        <button class="operator" id="=">=</button>
+      </div>
+    </div>
+  </div>
+        <div class="container-fluid fix-bottom">
+        <div class="row">
+          <div class="footer">
+            <div class="footer-marquee">
+              <div class="mt-4 px-2">
+                <marquee class="bg-marq" 
+                  direction="left" 
+                  width="100%" 
+                  bgcolor="navy" 
+                  onmouseover="this.stop()" 
+                  onmouseout="this.start()">
+                    <p class="marq-text text-light">Md. Akim Uddin, Roll-32, WordPress Master Class, Batch: WDD-17, <a href="https://www.freedomitinstitutions.com">Freedom IT Itinstitutions</a>, Mentor: Robiul Hossain Sir.</p>
+                </marquee>
+              </div>
+            </div>
+          </div>
+        </div>    
+      </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
