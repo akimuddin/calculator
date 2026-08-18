@@ -38,11 +38,9 @@ A sleek, feature-rich web calculator built using vanilla HTML5, CSS3, and JavaSc
 
 ## 🚀 Live Demo
 
-https://akimuddin.github.io/calculator/
-[click]([https://akimuddin.github.io/calculator/]
+[Click here to view the Calculator](https://akimuddin.github.io/calculator/)
 
----
-
+----
 ## 🛠️ Tech Stack & Dependencies
 
 - **HTML5** — Semantic structure
