@@ -38,7 +38,7 @@ A sleek, feature-rich web calculator built using vanilla HTML5, CSS3, and JavaSc
 
 ## 🚀 Live Demo
 
-[Click Here to View Live Project](https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/) *(Optional: Replace with your GitHub Pages link)*
+<a href=https://akimuddin.github.io/calculator/">Click Here to View Live Project</a>
 
 ---
 
